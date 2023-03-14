@@ -1,0 +1,206 @@
+#EXTM3U
+#PLAYLIST:iptvcat.com
+#EXTINF:0,TVMatic Sport
+http://cdn.tvmatic.net/sport.m3u8
+#EXTINF:0,TVMatic Fight
+http://cdn.tvmatic.net/fight.m3u8
+#EXTINF:0 tvg-country="AF" tvg-logo="" group-title="Sport",CANAL+  SPORT 1 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/12681.m3u8
+#EXTINF:0 tvg-country="AF" tvg-logo="" group-title="Sport",CANAL+  SPORT 1 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/12681.m3u8
+#EXTINF:0 tvg-country="AF" tvg-logo="" group-title="Sport",CANAL+  SPORT 1 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/12681.m3u8
+#EXTINF:0 tvg-country="AF" tvg-logo="" group-title="Sport",CANAL+  SPORT 1 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/12681.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 1 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10314.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 1 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10314.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 1 HD
+http://rv.imax.re:80/5124037472/1572081885/81918
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10315.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10315.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10315.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10315.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 2 HD
+http://rv.imax.re:80/5124037472/1572081885/81917
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 3 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10316.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 3 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10316.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART SPORT 3 HD
+http://rv.imax.re:80/5124037472/1572081885/81916
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART Sport 1 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30158
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART Sport 1 HD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30081
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART Sport 2 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30159
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART Sport 2 HD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30080
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART Sport 3 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30160
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",ART Sport 3 HD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30079
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 1 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10353.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 1 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10353.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10355.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10355.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10355.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 2 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10356.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 2 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10356.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",EUROSPORT 2 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10356.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",FreeSports
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/197068
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 2
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10395.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 2
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10395.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 2
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10395.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 2
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10395.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 2 HD
+http://rv.imax.re:80/5124037472/1572081885/81923
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 3
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10396.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 3
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10396.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 3
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10396.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 3
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10396.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 3 HD
+http://rv.imax.re:80/5124037472/1572081885/81922
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 4
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10397.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 4
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10397.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 4
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10397.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 4
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10397.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K SPORT 4 HD
+http://rv.imax.re:80/5124037472/1572081885/81921
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 1
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/1876
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 1 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30162
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 1 HD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/1863
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 2
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/1877
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 2 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30163
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 2 HD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/1864
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 3
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/2737
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 3 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30164
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 3 HD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/1865
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 4
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/2738
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 4 HD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/1866
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",K Sport 5 FHD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/30166
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KSPORT ISLAM TV
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10431.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KSPORT ISLAM TV
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10431.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KSPORT ISLAM TV
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B1/BLvhw3lfL2/10431.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KSPORT ISLAM TV
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10431.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KSPORT ISLAM TV
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10431.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KUTJESA SPORT 1
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/47768
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KUTJESA SPORT 3
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/47769
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",KUTJESA SPORT 4
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/47770
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",Kujtesa Sport 1 FHD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/6718
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",Kujtesa Sport 2 FHD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/3640
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",Kujtesa Sport 3 FHD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/8297
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",Kujtesa Sport 4 FHD
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/15568
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",Premier Sports 2
+http://pascaltv.site:8080/magicoiptv/1ed63025640d/196486
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10485.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10485.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10485.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10486.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10486.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10486.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT HD
+http://rv.imax.re:80/5124037472/1572081885/82163
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",RTSH SPORT HD
+http://client.ksporttv.com:88/m0d0157!m0d0158!/wFbg8ZdK4eZKHbQW/1887
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 1 4K
+http://rv.imax.re:80/5124037472/1572081885/81945
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 1 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10543.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 1 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10543.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 1 HD
+http://rv.imax.re:80/5124037472/1572081885/81946
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 1 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10544.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10545.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10545.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10545.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10545.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10546.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:B5/hku8cTCx3n/10546.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10546.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10546.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 2 HD
+http://rv.imax.re:80/5124037472/1572081885/81944
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 4K
+http://rv.imax.re:80/5124037472/1572081885/81941
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:23/iB3OuVaDYu/10547.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10547.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 FHD VIP
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10547.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:0D/LwRNgFdE6Y/10548.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 HD
+http://80.82.77.130:80/live/mag00:1A:79:B1:2B:AD/1aaG6HxQ1K/10548.m3u8
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 3 HD
+http://rv.imax.re:80/5124037472/1572081885/81942
+#EXTINF:0 tvg-country="AL" tvg-logo="" group-title="Sport",SUPER SPORT 4 4K (ONLY MATCH TIME)
+http://rv.imax.re:80/5124037472/1572081885/81939
