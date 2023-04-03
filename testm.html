@@ -4,13 +4,47 @@
     <title>AnimeDex Uploads</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Style for header */
+        .navbar {
+            background-color: #232323;
+        }
+
+        .navbar-brand {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .navbar-link {
+            color: white;
+            font-size: 28px;
+            margin-left: auto;
+        }
+
+        /* Style for video player */
+        .play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            color: white;
+        }
+
+        .fa-play-circle-o {
+            font-size: 120px;
+            text-shadow: 2px 2px #000;
+        }
+    </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 <!-- Header -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#">AnimeDex Uploads</a>
     <a href="https://chat.whatsapp.com/link-to-whatsapp-group" target="_blank" class="navbar-link">
         <i class="fa fa-whatsapp"></i>
@@ -28,9 +62,6 @@
         </div>
     </div>
 </div>
-
-<!-- Include FontAwesome for WhatsApp icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Include HLS.js for playing m3u8 files -->
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
@@ -62,11 +93,75 @@
     });
 
     // Add event listener for video ended
-    video.addEventListener('ended', function () {
-        // Show the play button when video ends
-        $('.play-btn').show();
-    });
-</script>
+    videoPlayer.addEventListener('ended', function() {
+// Reset video to beginning
+this.currentTime = 0;
+// Show play button
+playBtn.classList.remove('d-none');
+// Hide pause button
+pauseBtn.classList.add('d-none');
+});
 
+// Add event listener for play button
+playBtn.addEventListener('click', function() {
+// Show pause button
+pauseBtn.classList.remove('d-none');
+// Hide play button
+playBtn.classList.add('d-none');
+// Play video
+videoPlayer.play();
+});
+
+// Add event listener for pause button
+pauseBtn.addEventListener('click', function() {
+// Show play button
+playBtn.classList.remove('d-none');
+// Hide pause button
+pauseBtn.classList.add('d-none');
+// Pause video
+videoPlayer.pause();
+});
+
+// Add event listener for fullscreen button
+fullscreenBtn.addEventListener('click', function() {
+if (videoPlayer.requestFullscreen) {
+videoPlayer.requestFullscreen();
+} else if (videoPlayer.webkitRequestFullscreen) { /* Safari /
+videoPlayer.webkitRequestFullscreen();
+} else if (videoPlayer.msRequestFullscreen) { / IE11 */
+videoPlayer.msRequestFullscreen();
+}
+});
+
+// Add event listener for volume range input
+volumeRange.addEventListener('input', function() {
+// Set video volume
+videoPlayer.volume = this.value;
+});
+
+// Add event listener for mute button
+muteBtn.addEventListener('click', function() {
+if (videoPlayer.muted) {
+// Unmute video
+videoPlayer.muted = false;
+// Change mute button icon
+muteBtn.innerHTML = '<i class="fa fa-volume-up"></i>';
+// Set volume range input value
+volumeRange.value = videoPlayer.volume;
+} else {
+// Mute video
+videoPlayer.muted = true;
+// Change mute button icon
+muteBtn.innerHTML = '<i class="fa fa-volume-off"></i>';
+// Set volume range input value to 0
+volumeRange.value = 0;
+}
+});
+
+</script>
 </body>
 </html>
+
+
+
+
