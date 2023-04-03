@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HLS.js Video Player with Custom Design</title>
+    <title>Anime Streaming Website</title>
     <!-- Include meta tag for viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Include Bootstrap CSS -->
@@ -45,54 +45,114 @@
             cursor: pointer;
             z-index: 1;
         }
+
+        /* Custom styles for header and footer */
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1,
+        .footer h3 {
+            margin: 0;
+        }
+
+        .header p,
+        .footer p {
+            margin-bottom: 0;
+        }
+
+        .header a,
+        .footer a {
+            color: #fff;
+        }
+
+        /* Additional styles for enhanced design */
+        .video-container {
+            margin-top: 100px;
+        }
+
+        .play-btn {
+            font-size: 64px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .play-btn:hover {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 
 <body>
+    <header class="header">
+        <div class="container text-center">
+            <h1>Anime Streaming Website</h1>
+            <p>Watch your favorite anime shows online</p>
+        </div>
+    </header>
     <div class="container mt-5">
         <div class="video-container">
-            <h1 class="text-center">Custom HLS.js Video Player</h1>
             <div class="custom-video-player">
                 <video id="videoPlayer" preload="none"></video>
                 <div class="play-btn">&#9658;</div>
             </div>
         </div>
     </div>
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <h3>Contact Us</h3>
+            <p>Email: contact@example.com | Phone: 123-456-7890</p>
+            <p>&copy; 2023 Anime Streaming Website. All rights reserved.</p>
+        </div>
+    </footer>
 
     <!-- Include HLS.js Library -->
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <!-- Include Bootstrap and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        // Initialize HLS.js
-        var video = document.getElementById('videoPlayer');
-        var hls = new Hls();
-        var videoUrl = 'https://stream.skynewsarabia.com/hls/sna.m3u8'; // Update with your actual M3U8 file URL
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<!-- Custom JavaScript for video player -->
+<script>
+    // Get the video element
+    var video = document.getElementById('videoPlayer');
+
+    // Add event listener for play button
+    $('.play-btn').on('click', function () {
+        // Hide the play button
+        $('.play-btn').hide();
+
+        // Initialize HLS.js
         if (Hls.isSupported()) {
-            hls.loadSource(videoUrl);
+            var hls = new Hls();
+            hls.loadSource('https://stream.skynewsarabia.com/hls/sna.m3u8');
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
-                video.addEventListener('loadedmetadata', function () {
-                    // Add event listener to play button
-                    document.querySelector('.play-btn').addEventListener('click', function () {
-                        video.play();
-                        document.querySelector('.play-btn').style.display = 'none';
-                    });
-                });
+                video.play();
             });
         } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = videoUrl;
+            video.src = 'https://stream.skynewsarabia.com/hls/sna.m3u8';
             video.addEventListener('loadedmetadata', function () {
-                // Add event listener to play button
-                document.querySelector('.play-btn').addEventListener('click', function () {
-                    video.play();
-                    document.querySelector('.play-btn').style.display = 'none';
-                });
+                video.play();
             });
         }
-    </script>
+    });
+
+    // Add event listener for video ended
+    video.addEventListener('ended', function () {
+        // Show the play button when video ends
+        $('.play-btn').show();
+    });
+</script>
+
 </body>
 
 </html>
