@@ -1,124 +1,39 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Anime Streaming Website</title>
-    <!-- Include meta tag for viewport -->
+    <title>AnimeDex Uploads</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Style for the video player container */
-        .video-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        /* Custom CSS for the video player */
-        .custom-video-player {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            /* 16:9 Aspect Ratio */
-            height: 0;
-            overflow: hidden;
-            background-color: #000;
-            /* Set custom background color for video player */
-        }
-
-        .custom-video-player video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            outline: none;
-        }
-
-        .custom-video-player .play-btn {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 48px;
-            color: #fff;
-            cursor: pointer;
-            z-index: 1;
-        }
-
-        /* Custom styles for header and footer */
-        .header {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-        }
-
-        .footer {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .header h1,
-        .footer h3 {
-            margin: 0;
-        }
-
-        .header p,
-        .footer p {
-            margin-bottom: 0;
-        }
-
-        .header a,
-        .footer a {
-            color: #fff;
-        }
-
-        /* Additional styles for enhanced design */
-        .video-container {
-            margin-top: 100px;
-        }
-
-        .play-btn {
-            font-size: 64px;
-            transition: transform 0.2s ease-in-out;
-        }
-
-        .play-btn:hover {
-            transform: scale(1.2);
-        }
-    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-    <header class="header">
-        <div class="container text-center">
-            <h1>Anime Streaming Website</h1>
-            <p>Watch your favorite anime shows online</p>
-        </div>
-    </header>
-    <div class="container mt-5">
-        <div class="video-container">
-            <div class="custom-video-player">
-                <video id="videoPlayer" preload="none"></video>
-                <div class="play-btn">&#9658;</div>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">AnimeDex Uploads</a>
+    <a href="https://chat.whatsapp.com/link-to-whatsapp-group" target="_blank" class="navbar-link">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+</nav>
+
+<!-- Video player -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="play-btn">
+                <i class="fa fa-play-circle-o fa-5x"></i>
             </div>
+            <video id="videoPlayer" class="w-100"></video>
         </div>
     </div>
-    <footer class="footer mt-5">
-        <div class="container text-center">
-            <h3>Contact Us</h3>
-            <p>Email: contact@example.com | Phone: 123-456-7890</p>
-            <p>&copy; 2023 Anime Streaming Website. All rights reserved.</p>
-        </div>
-    </footer>
+</div>
 
-    <!-- Include HLS.js Library -->
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <!-- Include Bootstrap and jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Include FontAwesome for WhatsApp icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Include HLS.js for playing m3u8 files -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <!-- Custom JavaScript for video player -->
 <script>
@@ -154,5 +69,4 @@
 </script>
 
 </body>
-
 </html>
