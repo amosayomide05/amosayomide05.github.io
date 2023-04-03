@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple HLS.js Video Player</title>
+    <title>HLS.js Video Player with Bootstrap</title>
+    <!-- Include meta tag for viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Style for the video player container */
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">HLS.js Video Player</h1>
-        <video id="videoPlayer" class="w-100 mt-3" controls></video>
+        <div class="video-container">
+            <h1 class="text-center">HLS.js Video Player</h1>
+            <video id="videoPlayer" class="w-100 mt-3" controls></video>
+        </div>
     </div>
 
     <!-- Include HLS.js Library -->
