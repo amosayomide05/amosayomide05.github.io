@@ -10,7 +10,7 @@ const closeNav = () => {
   }
 };
 
-if (navToggle && nav) {
+if (navToggle && nav) {ch
   navToggle.addEventListener("click", () => {
     const isOpen = document.body.classList.toggle("nav-open");
     navToggle.setAttribute("aria-expanded", String(isOpen));
