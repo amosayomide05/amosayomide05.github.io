@@ -1,735 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayomide Amos | amosayomide05</title>
-
-  <!--
-    - favicon
-  -->
+  <title>Ayomide Amos · Backend Automation Engineer for Bots, Scraping & Data Pipelines</title>
+  <meta name="description"
+        content="Ayomide Amos is a backend automation engineer building resilient bots, web scraping pipelines, and API-first platforms for teams that need reliable systems.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ayomide Amos">
+  <meta name="theme-color" content="#05070f">
+  <link rel="canonical" href="https://amosayomide.tech/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://amosayomide.tech/">
+  <meta property="og:title" content="Ayomide Amos · Backend Automation Engineer">
+  <meta property="og:description"
+        content="Backend developer and automation engineer helping teams ship bots, scraping pipelines, and API-driven services that stay online.">
+  <meta property="og:image" content="https://amosayomide.tech/assets/images/my-avatar.png">
+  <meta property="og:image:alt" content="Portrait of Ayomide Amos">
+  <meta property="og:site_name" content="Ayomide Amos Portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ayomide Amos · Backend Automation Engineer">
+  <meta name="twitter:description"
+        content="Automation-first backend engineer building bots, scraping systems, and integrations for teams worldwide.">
+  <meta name="twitter:image" content="https://amosayomide.tech/assets/images/my-avatar.png">
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
 <body>
-
-  <!--
-    - #MAIN
-  -->
+  <header class="site-header" id="top">
+    <div class="container header-row">
+      <a class="brand" href="#top" aria-label="Ayomide Amos home">
+        <span class="brand-mark">AA</span>
+        <span class="brand-text">Ayomide Amos</span>
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-navigation">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="site-nav" data-nav id="primary-navigation" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" data-scroll>Home</a></li>
+          <li><a href="#about" data-scroll>About</a></li>
+          <li><a href="#why" data-scroll>Why me</a></li>
+          <li><a href="#services" data-scroll>Services</a></li>
+          <li><a href="#work" data-scroll>Work</a></li>
+          <li><a href="#skills" data-scroll>Skills</a></li>
+          <li><a href="#certifications" data-scroll>Certifications</a></li>
+          <li><a href="#experience" data-scroll>Experience</a></li>
+          <li><a href="#contact" data-scroll>Contact</a></li>
+        </ul>
+      </nav>
+      <a class="button button-outline" href="mailto:amosayomide05@gmail.com">Let’s talk</a>
+    </div>
+  </header>
 
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Ayomide Amos">Ayomide Amos</h1>
-
-          <p class="title">Backend Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:amosayomide05@gmail.com" class="contact-link">amosayomide05@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Upwork</p>
-
-              <a href="https://upwork.com/freelancers/ayomidea87" class="contact-link">Click Here</a>
-            </div>
-
-          </li>
-
-
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Remote / Worldwide</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/amosayomide05" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/amosayomide/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a backend developer and automation engineer with a deep focus on building reliable, scalable systems. My
-            work centers on crafting tools that automate processes, handle large data workflows, and solve real-world
-            problems with efficiency.
-
-            I specialize in backend scripting, API integrations, web scraping, and task automation — primarily using
-            Node.js, Python, and cloud infrastructure. I build custom bots, backend services, and systems that operate
-            behind the scenes with speed and stability.
-          </p>
-
-          <p>
-            With a strong foundation in logic and problem-solving, I’ve worked on projects ranging from marketplace
-            automation bots, to data scraping pipelines, to AI-integrated backend tools. I value clean, maintainable
-            code and take a systems-thinking approach to every problem.
-
-            Whether it’s optimizing infrastructure, managing multiple sessions with proxies, or designing scalable data
-            flows — I focus on solutions that deliver impact.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Core Skills</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend Automation</h4>
-
-                <p class="service-item-text">
-                  High-performance backend systems using Node.js & Python. Scalable API design, job queues, and database logic built to handle automation at scale.
-                </p>
-              </div>
-
-            </li>
-
-           
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Bot & Script Development</h4>
-
-                <p class="service-item-text">
-                  Telegram bots, web automation scripts, and intelligent systems for platforms like Facebook, TikTok, and GPT-powered tools.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"> API Integration & Infrastructure</h4>
-
-                <p class="service-item-text">
-                  Seamless integration with external services (CRM, email, AI APIs), Dockerized deployment, logging, and light DevOps on VPS servers..
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Scraping & Data Mining                </h4>
-
-                <p class="service-item-text">
-                  Advanced scraping with Puppeteer/Playwright, anti-bot bypassing, proxy rotation, and secure data pipelines.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI Tools & Prompt Engineering                </h4>
-
-                <p class="service-item-text">
-                  Custom AI toolchains using OpenAI/Gemini APIs, prompt engineering, automation flows, and data pipelines for content, chat, or image gen.
-                </p>
-              </div>
-
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
+    <section class="hero" id="hero" data-section aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Automation-first backend engineer</p>
+          <h1 id="hero-title">I help teams build reliable automation backends; powering bots, data pipelines, and scraping systems that scale effortlessly.</h1>
+          <p class="body-lg">From prototypes to production systems, I build and deploy automation with Node.js, Python, and cloud infrastructure; helping teams capture data, scale, and eliminate manual work.</p>
+          <div class="hero-actions">
+            <a class="button" href="mailto:amosayomide05@gmail.com">Start a project</a>
+            <a class="button button-ghost" href="https://upwork.com/freelancers/ayomidea87" target="_blank"
+              rel="noopener">View Upwork</a>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lagos State University</h4>
-
-              <span>2022 — Present</span>
-
-              <p class="timeline-text">
-                Currently pursuing a B.Sc. in Computer Science at LASU, a leading university in Nigeria committed to truth and service.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">First Apex Schools</h4>
-
-              <span>2006 — 2021</span>
-
-              <p class="timeline-text">
-                Currently pursuing a B.Sc. in Computer Science at LASU, a leading university in Nigeria committed to truth and service.
-              </p>
-
-            </li>
-
-            
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+        </div>
+        <aside class="hero-aside">
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="./assets/images/my-avatar.png" alt="Portrait of Ayomide Amos">
             </div>
-
-            <h3 class="h3">Experience</h3>
+            <div class="profile-body">
+              <p class="profile-title">What I build</p>
+              <p class="profile-desc">Automation backends, resilient scraping pipelines, multi-session orchestration,
+                AI workflows.</p>
+              <ul class="profile-list">
+                <li><span>Remote / Worldwide</span></li>
+                <li><span>Node.js · Python · TypeScript</span></li>
+                <li><span>Puppeteer · Playwright · Docker · Redis · n8n</span></li>
+              </ul>
+            </div>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Upwork</h4>
-              <span>2023 — Present</span>
-
-              <p class="timeline-text">
-                I deliver automation tools, bots, and web scraping solutions to clients globally with a strong focus on backend efficiency and performance.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Internship</h4>
-
-              <span>2024</span>
-
-              <p class="timeline-text">
-                Interned in the ICT department, gaining hands-on experience in server maintenance, automation systems, and IT infrastructure.
-              </p>
-
-            </li>
-
-            
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Backend Development </h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web Scraping / Automation</h5>
-                <data value="95">95%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Bot Development (Telegram / Web)</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">API Development & Integration</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Database Management (MongoDB, PostgreSQL)</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Cloud & VPS Deployment (Linux, Docker) </h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
+          <div class="status-card">
+            <span class="status-badge">Availability</span>
+            <p class="status-text">Open for high-impact automation, data, and backend projects.</p>
+            <a class="status-link" href="https://www.linkedin.com/in/amosayomide/" target="_blank"
+              rel="noopener">Connect on LinkedIn →</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section why" id="why" data-section aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="section-title" id="why-title">Why teams work with me</h2>
+          <p>Reliable systems come from sweating the details. I blend backend engineering, automation strategy, and clear communication to ship software that stays up in production.</p>
+        </div>
+        <div class="why-grid">
+          <article class="why-card">
+            <span class="why-tag">Reliable systems</span>
+            <h3>Up 24/7</h3>
+            <p>Every automation ships with retries, structured logs, and dashboards — so you always know what’s running and can recover fast if something stalls.</p>
+            <ul>
+              <li>Structured logs and incident alerts</li>
+              <li>Graceful fallbacks for rate limits</li>
+              <li>Runbooks for handoff to your team</li>
             </ul>
+          </article>
+          <article class="why-card">
+            <span class="why-tag">Focused delivery</span>
+            <h3>Clear communication</h3>
+            <p>Clear communication keeps projects moving. I use short feedback loops, weekly updates, and transparent milestones so your team always knows where things stand.</p>
+            <ul>
+              <li>Milestone-based planning</li>
+              <li>Async demos with code walk-throughs</li>
+              <li>Transparent scope and roadmap</li>
+            </ul>
+          </article>
+          <article class="why-card">
+            <span class="why-tag">Scalable tooling</span>
+            <h3>Built to grow</h3>
+            <p>Systems are built to grow with your business — new data sources, new users, or new engineers — without starting over.</p>
+            <ul>
+              <li>Config-driven automation templates</li>
+              <li>Proxy and session orchestration</li>
+              <li>Monitoring that flags real issues</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="app development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/earth.png" alt="Earthquake Tracker loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Earthquake Tracker</h3>
-
-                <p class="project-category">App development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="app development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/wa.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Multi-Purpose Whatsapp Bot</h3>
-
-                <p class="project-category">Bot development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="app dev">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/webv.png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Webvium</h3>
-
-                <p class="project-category">App Development</p>
-
-              </a>
-            </li>
-
+    <section class="section about" id="about" data-section aria-labelledby="about-title">
+      <div class="container split">
+        <div class="split-col">
+          <h2 class="section-title" id="about-title">About</h2>
+          <p>I’m a backend developer and automation engineer who loves turning messy, manual workflows into reliable systems. I design and build backends where scripts become APIs, automations gain dashboards, and data pipelines get the observability they need to stay online.</p>
+          <p>I’ve delivered marketplace tooling, growth automations, scraping pipelines, and integrations that sync CRMs, support platforms, and marketing systems. My approach is simple: understand the business logic, design a scalable architecture, and support it long after it goes live.</p>
+        </div>
+        <div class="split-col">
+          <h3 class="section-subtitle">How I work</h3>
+          <ul class="list-check">
+            <li>Automate the core paths first, then refine the edge cases</li>
+            <li>Design for visibility — with logging, dashboards, and graceful recovery</li>
+            <li>Ship iteratively through short feedback loops</li>
+            <li>Secure every integration and data flow from day one</li>
           </ul>
+        </div>
+      </div>
+    </section>
 
-        </section>
+    <section class="section services" id="services" data-section aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="section-title" id="services-title">Core services</h2>
+          <p>Backend automation, scraping, and AI tooling tailored for teams that need reliable, low-maintenance systems.</p>
+        </div>
+        <div class="card-grid">
+          <article class="service-card">
+            <h3>Backend automation</h3>
+            <p>Node.js and Python services with queues, schedulers, and APIs that keep operations running smoothly.</p>
+            <ul>
+              <li>Microservices &amp; API design</li>
+              <li>Background workers &amp; async schedulers</li>
+              <li>Observability &amp; structured logging</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Bot &amp; script development</h3>
+            <p>Production-ready bots for Telegram, WhatsApp, and browser automation — built with secure sessions and multi-account management.</p>
+            <ul>
+              <li>Session &amp; proxy orchestration</li>
+              <li>Human-like automation flows</li>
+              <li>Control dashboards and alerting</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>API integrations &amp; infrastructure</h3>
+            <p>Connecting business systems and deploying containerized infrastructure that keeps data in sync across teams.</p>
+            <ul>
+              <li>CRM &amp; SaaS integrations</li>
+              <li>Webhook consumers and sync services</li>
+              <li>VPS and cloud infrastructure (Dockerized)</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Web scraping &amp; data mining</h3>
+            <p>AResilient scraping pipelines with anti-bot strategies, proxy rotation, and structured exports ready for analysis.</p>
+            <ul>
+              <li>Playwright &amp; Puppeteer pipelines</li>
+              <li>Data quality validation</li>
+              <li>Storage in MongoDB, PostgreSQL, Airtable</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      </article>
-
-
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    <section class="section work" id="work" data-section aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="section-title" id="work-title">Selected work</h2>
+          <p>Automation, data pipeline, and AI-powered projects delivered for startups, agencies, and enterprise teams.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-tile">
+            <figure>
+              <img src="./assets/images/earth.png" alt="Screenshot of the Earthquake Tracker dashboard">
+            </figure>
+            <div class="project-content">
+              <h3>Earthquake Tracker App</h3>
+              
             </div>
+          </article>
+          <article class="project-tile">
+            <figure>
+              <img src="./assets/images/wa.png" alt="WhatsApp automation interface preview">
+            </figure>
+            <div class="project-content">
+              <h3>WhatsApp Multipurpose Bot</h3>
+              
+            </div>
+          </article>
+          <article class="project-tile">
+            <figure>
+              <img src="./assets/images/webv.png" alt="Automation scripts running for Webvium">
+            </figure>
+            <div class="project-content">
+              <h3>Webvium Browser (Beta Tester)</h3>
+             
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+    <section class="section approach" id="approach" data-section aria-labelledby="approach-title">
+      <div class="container split">
+        <div class="split-col">
+          <h2 class="section-title" id="approach-title">Operating system</h2>
+          <p>I follow a delivery loop that keeps automations reliable, maintainable, and easy to scale.</p>
+        </div>
+        <div class="split-col">
+          <ol class="timeline">
+            <li>
+              <span class="timeline-label">01 · Discover</span>
+              <p>Clarify data sources, rate limits, and automation goals. Define metrics, observability, and success criteria before any code is written.</p>
+            </li>
+            <li>
+              <span class="timeline-label">02 · Design</span>
+              <p>Architect services, queues, and storage layers. Plan authentication, proxy handling, and scaling strategies for resilient performance.
+              </p>
+            </li>
+            <li>
+              <span class="timeline-label">03 · Build</span>
+              <p>Implement incrementally with tests, structured logging, and config-driven controls — enabling fast, safe iterations.</p>
+            </li>
+            <li>
+              <span class="timeline-label">04 · Support</span>
+              <p>Deploy via Docker, set up monitoring and runbooks, and provide continuous maintenance or feature expansion post-launch.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+    <section class="section experience" id="experience" data-section aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="section-title" id="experience-title">Experience</h2>
+          <p>A mix of freelance engagements and ongoing roles focused on automation, scraping, and backend delivery.</p>
+        </div>
+        <div class="timeline-grid">
+          <div>
+            <h3 class="section-subtitle">Professional</h3>
+            <ol class="timeline">
+              <li>
+                <span class="timeline-label">2023 — Present</span>
+                <h4>Automation Engineer · Upwork</h4>
+                <p>Designing and building automation solutions for global clients—bots, scrapers, queue-driven services,
+                  and AI-assisted workflows.</p>
+              </li>
+              <li>
+                <span class="timeline-label">2024</span>
+                <h4>Backend Developer Intern</h4>
+                <p>Delivered data integrations, performance optimizations, and tooling that kept automation jobs reliable
+                  at scale.</p>
+              </li>
+            </ol>
+          </div>
+          <div>
+            <h3 class="section-subtitle">Education</h3>
+            <ol class="timeline">
+              <li>
+                <span class="timeline-label">2022 — 2025</span>
+                <h4>Lagos State University</h4>
+                <p>B.Sc. Computer Science.</p>
+              </li>
+              <li>
+                <span class="timeline-label">2006 — 2021</span>
+                <h4>First Apex Schools</h4>
+                <p>Science-focused curriculum</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          </form>
+    <section class="section skills" id="skills" data-section aria-labelledby="skills-title">
+      <div class="container">
+        <div class="skills-top">
+          <div class="section-intro">
+            <h2 class="section-title" id="skills-title">Skills &amp; stack</h2>
+            <p>Backend engineering, automation craftsmanship, and data plumbing that keep complex systems humming.</p>
+          </div>
+          
+        </div>
 
-        </section>
+        <div class="skills-grid">
+          <article class="skills-card">
+            <h3>Core languages &amp; frameworks</h3>
+            <p>Battle-tested in production environments with high-volume automation workloads.</p>
+            <div class="skill-meters">
+              <div class="skill-meter">
+                <div class="skill-label">
+                  <span>Node.js / TypeScript</span>
+                  <span>Expert</span>
+                </div>
+                <div class="skill-bar" data-progress="92"></div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-label">
+                  <span>Python (async, scraping)</span>
+                  <span>Advanced</span>
+                </div>
+                <div class="skill-bar" data-progress="88"></div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-label">
+                  <span>SQL &amp; data modeling</span>
+                  <span>Advanced</span>
+                </div>
+                <div class="skill-bar" data-progress="82"></div>
+              </div>
+            </div>
+          </article>
 
-      </article>
+          <article class="skills-card">
+            <h3>Automation &amp; data tooling</h3>
+            <p>Everything required to orchestrate bots, pipelines, and AI-assisted workflows with confidence.</p>
+            <ul class="skills-tags">
+              <li>Puppeteer · Playwright · Selenium</li>
+              <li>Celery · BullMQ · RabbitMQ</li>
+              <li>Redis · PostgreSQL · MongoDB</li>
+              <li>LangChain · GPT-5 · Gemini</li>
+              <li>Make · n8n · Zapier</li>
+            </ul>
+          </article>
 
-    </div>
-
+          <article class="skills-card">
+            <h3>DevOps &amp; reliability</h3>
+            <p>Lean infrastructure to deploy, monitor, and scale services without friction.</p>
+            <div class="skill-meters">
+              <div class="skill-meter">
+                <div class="skill-label">
+                  <span>Docker &amp; containerization</span>
+                  <span>Advanced</span>
+                </div>
+                <div class="skill-bar" data-progress="84"></div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-label">
+                  <span>Linux server management</span>
+                  <span>Advanced</span>
+                </div>
+                <div class="skill-bar" data-progress="86"></div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-label">
+                  <span>Monitoring &amp; alerting</span>
+                  <span>Advanced</span>
+                </div>
+                <div class="skill-bar" data-progress="80"></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<!--
+    <section class="section certifications" id="certifications" data-section aria-labelledby="cert-title">
+      <div class="container">
+        <div class="section-intro">
+          <h2 class="section-title" id="cert-title">Certifications &amp; highlights</h2>
+          <p>Continuous learning keeps my automation practice sharp and aligned with modern engineering standards.</p>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card">
+            <div class="cert-meta">
+              <span class="cert-year">2024</span>
+              <span class="cert-badge">Google</span>
+            </div>
+            <h3>Google Cloud Digital Leader</h3>
+            <p>Automation-friendly cloud architecture, cost optimization, and security compliance for multi-service
+              backends.</p>
+            <span class="cert-link">Credential ID: GCDL-28465</span>
+          </article>
+          <article class="cert-card">
+            <div class="cert-meta">
+              <span class="cert-year">2023</span>
+              <span class="cert-badge">Udacity</span>
+            </div>
+            <h3>AI Product Engineering Nanodegree</h3>
+            <p>Deployed production-grade AI workflows that blend GPT-4 with automation logic, covering evaluation and
+              lifecycle maintenance.</p>
+            <span class="cert-link">Specialization in automation &amp; prompt systems</span>
+          </article>
+          <article class="cert-card">
+            <div class="cert-meta">
+              <span class="cert-year">2022</span>
+              <span class="cert-badge">Meta</span>
+            </div>
+            <h3>Meta Backend Developer</h3>
+            <p>Core backend engineering, API design, and database performance tuning that informs my bot &amp; automation builds.</p>
+            <span class="cert-link">Credential ID: META-BE-90231</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  -->
+    <section class="section contact" id="contact" data-section aria-labelledby="contact-title">
+      <div class="container contact-wrap">
+        <div class="contact-info">
+          <h2 class="section-title" id="contact-title">Let’s build your next automation</h2>
+          <p>If you have a workflow to streamline, data to collect, or a bot to maintain, send a short brief. I’ll follow up with ideas, a rough timeline, suggested technologies, and next steps.</p>
+          <div class="contact-pairs">
+            <div>
+              <span>Email</span>
+              <a href="mailto:amosayomide05@gmail.com">amosayomide05@gmail.com</a>
+            </div>
+            <div>
+              <span>Upwork</span>
+              <a href="https://upwork.com/freelancers/ayomidea87" target="_blank" rel="noopener">upwork.com/freelancers/ayomidea87</a>
+            </div>
+            <div>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/amosayomide/" target="_blank" rel="noopener">linkedin.com/in/amosayomide/</a>
+            </div>
+            <div>
+              <span>GitHub</span>
+              <a href="https://github.com/amosayomide05" target="_blank" rel="noopener">github.com/amosayomide05</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
   </main>
 
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Ayomide Amos.</p>
+      <div class="footer-links">
+        <a href="mailto:amosayomide05@gmail.com">Email</a>
+        <a href="https://upwork.com/freelancers/ayomidea87" target="_blank" rel="noopener">Upwork</a>
+        <a href="https://github.com/amosayomide05" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
 
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ayomide Amos Portfolio",
+      "url": "https://amosayomide.tech/",
+      "description": "Backend automation engineer building bots, scraping pipelines, and API-first platforms.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://amosayomide.tech/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ayomide Amos",
+      "url": "https://amosayomide.tech/",
+      "image": "https://amosayomide.tech/assets/images/my-avatar.png",
+      "jobTitle": "Backend Automation Engineer",
+      "description": "Backend developer and automation engineer specialising in bots, web scraping, and data pipelines for remote teams.",
+      "email": "mailto:amosayomide05@gmail.com",
+      "sameAs": [
+        "https://github.com/amosayomide05",
+        "https://www.linkedin.com/in/amosayomide/",
+        "https://upwork.com/freelancers/ayomidea87"
+      ],
+      "knowsAbout": [
+        "Backend development",
+        "Automation engineering",
+        "Web scraping",
+        "API integrations",
+        "Bots"
+      ],
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Upwork"
+        }
+      ]
+    }
+  </script>
 </body>
-
 </html>
