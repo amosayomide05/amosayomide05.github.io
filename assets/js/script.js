@@ -10,7 +10,7 @@ const closeNav = () => {
   }
 };
 
-if (navToggle && nav) {ch
+if (navToggle && nav) {
   navToggle.addEventListener("click", () => {
     const isOpen = document.body.classList.toggle("nav-open");
     navToggle.setAttribute("aria-expanded", String(isOpen));
@@ -51,10 +51,28 @@ if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
 }
 
-document.querySelectorAll(".skill-bar").forEach((bar) => {
-  const progress = bar.dataset.progress || "0";
-  bar.style.setProperty("--progress", `${progress}%`);
+// Animate skill bars when they come into view
+const animateSkillBars = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const bars = entry.target.querySelectorAll(".skill-bar");
+      bars.forEach((bar) => {
+        const progress = bar.dataset.progress || "0";
+        bar.style.setProperty("--progress", progress);
+      });
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+const skillsObserver = new IntersectionObserver(animateSkillBars, {
+  threshold: 0.3,
 });
+
+const skillsSection = document.getElementById("skills");
+if (skillsSection) {
+  skillsObserver.observe(skillsSection);
+}
 
 window.addEventListener("scroll", () => {
   const header = document.querySelector(".site-header");
